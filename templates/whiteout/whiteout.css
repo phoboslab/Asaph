@@ -1,0 +1,113 @@
+body {
+	color: #ccc;
+	font-family: trebuchet ms, arial, verdana, deja vu;
+	font-size: 10pt;
+	background-color: #fff;
+	width: 828px;
+	margin: 2em auto;
+	padding: 0;
+}
+
+div#title {
+	background-color: #fcfcfc;
+	margin: 0 10px 0 10px;
+	position: relative;
+}
+
+div#title em {
+	position: absolute;
+	right: 1em;
+	top: 0.5em;
+	font-style: normal;
+}
+
+h1 {
+	margin: 0;
+	padding: 0.2em 1em;
+	font-size: 140%;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+a {
+	color: #00adef;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #aaa;
+}
+
+div.clear {
+	clear: both;
+}
+
+p {
+	margin: 1em 10px;
+	padding: 0 1em;
+}
+
+
+
+div.post {
+	float: left;
+	width: 256px;
+	height: 215px;
+	overflow: hidden;
+	margin: 13px 10px;
+	margin-left: 10px; 
+	position: relative;
+	display: inline; /* JESUS FUCKING IE */
+}
+	
+	div.post img {
+		border: 0;
+	}
+
+	div.post p {
+		position: absolute;
+		bottom: 35px;
+		margin: 0;
+		padding: 0;
+		font-size: 140%;
+		font-weight: normal;
+		color: #ccc;
+	}
+	
+	div.postInfo {
+		padding: 0.2em;
+		font-style: italic;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	
+div#pages {
+	margin-top: 1em;
+}
+
+	div.pageInfo {
+		float: left;
+		margin-left: 10px;
+		display: inline;
+	}
+	div.pageLinks {
+		float: right;
+		margin-right: 10px;
+	}
+	
+	
+#whitebox {
+	top: 0;
+	left: 0;
+	display: none;
+	position: absolute;
+	padding: 10px;
+	margin: -12px 0 0 -12px;
+	background: #fff url(loading.gif) no-repeat scroll center center;
+	border: 1px solid #eee;
+}
+	#whitebox img {
+		border: 1px solid #eee;
+		cursor: pointer;
+	}

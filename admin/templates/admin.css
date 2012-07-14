@@ -1,0 +1,341 @@
+/* Layout & Typo
+-------------------------------------------------*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #666;
+	margin: 0;
+	padding: 1em 1em 3em 0;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	color: #00adef;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #666;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 140%;
+	font-weight: normal;
+	margin: 1em 0 0.5em 0;
+	padding: 0;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 110%;
+	font-weight: bold;
+	margin: 1em 0 0.5em 0;
+	padding: 0;
+}
+
+h3 {
+	font-size: 90%;
+	font-weight: bold;
+	margin: 1em 0 0.5em 0;
+	padding: 0;
+}
+
+dd {
+	margin: 4px 0;
+}
+
+dt {
+	margin-right: 8px;
+	padding: 0.1em 0;
+	width: 70px;
+	height: 1em;
+	text-align: right;
+	display: block;
+	float: left;
+	font-style: italic;
+}
+
+#menu {
+	text-align: right;
+	float: left;
+	border-right: 1px solid #eee;
+	padding: 3em 1em;
+	margin: 1em 3em 0 0;
+}
+
+#menu a {
+	display: block;
+	padding: 0.2em;
+	font-weight: bold;
+}
+
+#menu a:hover {
+	background-color: #fafafa;
+}
+	
+
+#content {
+	float: left;
+	padding-top: 1em;
+	width: 680px;
+}
+
+a.bookmarklet {
+	border: 1px solid #eee;
+	text-transform: uppercase;
+	font-size: 75%;
+	text-align: center;
+}
+
+a.logout {
+	font-size: 80%;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+div#pages {
+	margin-top: 1em;
+	position: relative;
+}
+
+div.pageLinks {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+div.warn {
+	background-color:#fff6df;
+	padding: 0.4em;
+	border: 1px solid #ffe8a5;	
+}
+
+div.clear {
+	clear: both;
+}
+
+
+/* Tables 
+-------------------------------------------------*/
+
+table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+th {
+	font-size: 100%;
+	font-weight: normal;
+	font-style: italic;
+}
+
+td {
+	vertical-align: middle;
+	padding: 0.1em;
+	border-left: 1px solid #fff;
+}
+
+td.date {
+	width: 9em;
+}
+
+td.text {
+	width: 35em;
+}
+
+td.image {
+		width: 64px;
+}
+
+td.image img {
+	width:64px;
+	height: 48px;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+tr.odd {
+	background-color: #fafafa;
+}
+
+tr td:first-child {
+	border-left: 5px solid #fff;
+}
+
+tr:hover td:first-child {
+	border-left: 5px solid #00adef;
+}
+
+table.posts td {
+	height: 48px;
+}
+
+div.source, div.user {
+	font-style: italic;
+}
+
+
+/* Input 
+-------------------------------------------------*/
+
+input, textarea {
+	font-family: arial;
+	font-size: 10pt;
+	padding: 1px 3px;
+	border: 1px solid #444;
+	background-color: #fff;
+	color: #666;
+}
+
+input {
+	width: 9em;
+}
+
+input.long {
+	width: 30em;
+}
+
+textarea {
+	width: 30em;
+	height: 6em;
+}
+
+input.button {
+	width: auto;
+	color: #00adef;
+	border: 1px solid #ccc;
+	font-weight: bold;
+}
+
+input:focus, textarea:focus {
+	border: 1px solid #00adef;
+}
+
+
+/* Calendar 
+-------------------------------------------------*/
+
+div.calContainer {
+	font-size: 80%;
+	background-color: #fff;
+	border: 1px solid #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+div.calTitleContainer {
+	font-weight: bold;
+}
+div.calDays {
+	clear: both;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-top: 0.3em;
+}
+
+a.calPrevLink {
+	display: block;
+	float:left;
+	width: 3em;
+}
+
+a.calNextLink {
+	width: 3em;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: right;
+}
+
+div.calDays a {
+	float: left;
+	width: 1.6em;
+	height: 1.4em;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	text-align: center;
+}
+
+div.calDays a:hover {
+	text-decoration: none;
+}
+
+a.calDayTitle {
+	background-color: #fff;
+	color: #000;
+	font-weight: bold;
+	overflow: hidden;
+}
+a.calDummyDay {
+	background-color: #fff;
+}
+a.calHoliday {
+	background-color: #eef5ff;
+	color: #000;
+}
+a.calWorkDay {
+	background-color: #fff;
+	color: #000;
+}
+a.calSelectedDay {
+	background-color: #ffd57c;
+	color: #000;
+	font-weight: bold;
+}
+a.calCurrentDay {
+	background-color: #d00;
+	color: #fff;
+	font-weight: bold;
+}
+
+a.calWorkDay:hover, a.calHoliday:hover {
+	background-color: #ffd57c;
+	color: #000;
+}
+
+div.calWeekBreak {
+	clear: left;
+}
+
+
+/* Installation 
+-------------------------------------------------*/
+
+div.install {
+	width: 40em;
+	padding: 1em;
+	margin: 1em;
+	border: 1px solid #eee;
+}
+
+div.install code {
+	font-weight: bold;
+	font-family: courier new, monospaced;
+}
+
+div.install div.check {
+	border: 1px solid #eee;
+	margin: 0.5em 0;
+	padding: 0.2em 0.5em;
+}
+
+div.install div.check h3 {
+	margin: 0.5em 0;
+}
+
+div.install div.ok h3 {
+	color: #79aa0f;
+}
+
+div.install div.failed h3 {
+	color: #fa742a;
+}
+

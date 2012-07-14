@@ -1,0 +1,140 @@
+img.Asaph_PostImage {
+	border: 2px dashed #00adef !important;
+	cursor: pointer !important;
+}
+
+	img.Asaph_PostImage:hover, img.Asaph_PostImageActive {
+		border: 2px solid #00adef !important;
+	}
+
+#Asaph {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	width: 450px;
+	margin-left: -243px;
+	padding: 0 18px 18px 18px;
+	z-index: 99999;
+	
+	background-image: url(remote-background.png);
+	background-position: bottom;
+	color: #aaa !important;
+}
+
+#Asaph_Menu {
+	font-weight: bold;
+	padding: 6px;
+	position: relative;
+}
+
+#Asaph_Dialog {
+	border-top: 1px solid #eee;
+	display: none;
+	position: relative;
+}
+
+#Asaph iframe {
+	width: 450px;
+	height: 180px;
+	border: 0;
+}
+
+.Asaph_Post {
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+}
+
+.Asaph_Post a {
+	color: #00adef !important;
+	background: transparent none !important;
+	text-decoration: none !important;
+	border: 0 !important;
+}
+
+.Asaph_Post a:hover {
+	color: #666 !important;
+	background: transparent none !important;
+	text-decoration: none !important;
+	border: 0 !important;
+}
+
+.Asaph_Post a.close {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	padding: 6px 10px;
+	font-weight: bold;
+}
+
+body.Asaph_Post {
+	color: #666;
+	margin: 0;
+	padding: 6px 0 0 6px;
+}
+
+.Asaph_Post input, .Asaph_Post textarea {
+	font-family: arial;
+	font-size: 10pt;
+	padding: 1px 3px;
+	border: 1px solid #444;
+	background-color: #fff;
+	color: #666;
+}
+
+.Asaph_Post input {
+	width: 150px;
+}
+
+.Asaph_Post input.long {
+	width: 330px;
+}
+
+.Asaph_Post textarea {
+	width: 330px;
+	height: 68px;
+}
+
+.Asaph_Post input.button {
+	width: auto;
+	color: #00adef;
+	border: 1px solid #ccc;
+	font-weight: bold;
+}
+
+.Asaph_Post input:focus, .Asaph_Post textarea:focus {
+	border: 1px solid #00adef;
+}
+
+.Asaph_Post dd {
+	margin: 4px 0;
+}
+
+.Asaph_Post dt {
+	margin-right: 8px;
+	padding: 0.1em 0;
+	width: 70px;
+	height: 1em;
+	text-align: right;
+	display: block;
+	float: left;
+	font-style: italic;
+}
+
+.Asaph_Post h1 {
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0 0 10px 0; 
+	padding: 0;
+	color: #aaa;
+}
+
+.Asaph_Post div.warn {
+	background-color:#fff6df;
+	padding: 0.3em;
+	margin-right: 10px;
+	border: 1px solid #fdc689;
+}

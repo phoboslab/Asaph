@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+	# Add 'rw' parameter, so we can detect whether mod_rewrite is enabled
+	RewriteEngine on
+	RewriteRule ^$ index.php?rw
+	
+	# Rewrite everything to index.php if it is not a real file or directory
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^(.*)$ index.php?rw=$1
+</IfModule>

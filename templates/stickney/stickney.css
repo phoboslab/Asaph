@@ -1,0 +1,121 @@
+body {
+	color: #666;
+	font-family: arial, helvetica, verdana, deja vu;
+	font-size: 10pt;
+	background-color: #000;
+	width: 60em;
+}
+
+div#title {
+	margin: 0 0 0 1em;
+	position: relative;
+	background-color: #222;
+}
+
+div#title em {
+	position: absolute;
+	right: 1em;
+	top: 0.5em;
+	font-style: normal;
+}
+
+h1 {
+	margin: 0;
+	padding: 0.2em 1em;
+	font-size: 140%;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+a {
+	color: #f01682;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	background-color: #f01682;
+}
+
+div.clear {
+	clear: both;
+}
+
+p {
+	margin: 1em;
+	padding: 0;
+}
+
+
+
+div.post {
+	overflow: hidden;
+	padding: 2em 0;
+	margin-left: 1em; 
+	position: relative;
+	
+}
+
+div.post + div.post {
+	border-top: 1px solid #222;
+}
+	
+	div.post img {
+		float: left;
+		border: 0;
+		margin-left: 1em;
+		display: block;
+		height: 192px;
+	}
+
+	div.post p {
+		float: left;
+		padding: 0 0 0 1em;
+		margin: 0;
+		font-size: 125%;
+		font-weight: bold;
+		color: #ccc;
+		width: 30em;
+	}
+	
+	
+	ul.postInfo {
+		margin: 0;
+		padding: 0 1em 0 0;
+		float: left;
+		width: 18em;
+		text-align: right;
+		list-style-type: none;
+	}
+	
+div#pages {
+	margin: 2em 0 1em 1em;
+	padding: 0.5em 0;
+	background-color: #222;
+}
+
+	div.pageInfo {
+		float: left;
+		margin-left: 10px;
+		display: inline;
+	}
+	div.pageLinks {
+		float: right;
+		margin-right: 10px;
+	}
+	
+	
+#whitebox {
+	top: 0;
+	left: 0;
+	display: none;
+	position: absolute;
+	padding: 10px;
+	margin: -12px 0 0 -12px;
+	background: #000 url(loading.gif) no-repeat scroll center center;
+	border: 1px solid #222;
+}
+	#whitebox img {
+		border: 1px solid #222;
+		cursor: pointer;
+	}
