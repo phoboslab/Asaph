@@ -17,7 +17,7 @@
 	<a class="logout" href="?logout">Logout</a>
 
 	Bookmarklet:
-	<a class="bookmarklet" title="Post Bookmarklet" href="javascript:void((function(){var%20e=document.createElement('script');e.type='text/javascript';e.src='<?php echo ASAPH_POST_JS; ?>';document.body.appendChild(e)})());">Asaph</a>
+	<a class="bookmarklet" title="Post Bookmarklet" href="javascript:void((function(){var%20e=document.createElement('script');e.type='text/javascript';e.src='<?php echo ASAPH_BOOKMARK_POST_JS; ?>';document.body.appendChild(e)})());">Asaph</a>
 </div>
 
 <div id="content">
